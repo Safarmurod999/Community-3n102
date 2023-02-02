@@ -125,4 +125,14 @@
         color: #232536;
 
     }
+    
+}
+
+@media ( max-width: 800px ) {
+    .img-2 {
+        display: none;
+    }
+    .container-2-2 * {
+        text-align: center;
+    }
 }
