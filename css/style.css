@@ -57,7 +57,7 @@ main {
 
 #navbar {
   background-color: #232536 !important;
-  padding: 27px 0 !important;
+  padding: 27px 0;
   transition: 0.5s;
 }
 
