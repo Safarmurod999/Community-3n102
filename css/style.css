@@ -177,3 +177,89 @@ main {
   color: #fff;
   opacity: 0.6;
 }
+
+#begin .begin {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 96px !important;
+}
+#begin .begin .begin__div h1 {
+  padding-top: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  max-width: 729px;
+}
+#begin .begin .begin__div p {
+  padding: 24px 0 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+  max-width: 719px;
+}
+#begin .begin .begin__div .begin__end {
+  display: flex;
+}
+#begin .begin .begin__div .begin__end p {
+  padding: 0 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.6;
+}
+#begin .begin .begin__div .begin__end .end__right {
+  display: flex;
+}
+#begin .begin .begin__div .begin__end .end__right p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+}
+#begin .begin .begin__div .begin__end .end__left {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.6;
+}
+
+.img-2 {
+  padding-bottom: 113px !important;
+}
+.img-2 img {
+  height: 369px;
+  width: 100%;
+}
+
+.container-2-2 {
+  max-width: 842px;
+  margin: 0 auto;
+  padding-bottom: 96px;
+}
+.container-2-2 h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #232536;
+}
+.container-2-2 p {
+  max-width: 836px;
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+}
+.container-2-2 h2 {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+}
