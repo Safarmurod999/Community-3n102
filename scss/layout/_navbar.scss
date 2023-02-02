@@ -1,0 +1,62 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixin" as mixin;
+
+#navbar {
+  background-color: var.$dark-blue !important;
+  padding: 27px 0 !important;
+  transition: 0.5s;
+}
+
+.navbar-shrink {
+  padding: 10px 0 !important;
+  box-shadow: -2px 14px 8px 0px rgba(250, 247, 247, 0.2);
+}
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+  padding-right: 0 !important;
+}
+.navbar-toggler {
+  color: var.$secondary-color !important;
+  background-color: var.$secondary-color !important;
+  border-color: var.$secondary-color !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 16px !important;
+  color: var.$secondary-color !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  opacity: 0.6;
+}
+
+.navbar-nav .nav-link.active {
+  color: var.$secondary-color !important;
+  opacity: 1;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+  color: var.$yellow !important;
+  opacity: 1;
+}
+.navbar-nav .nav-link:hover {
+  color: var.$yellow !important;
+  opacity: 1;
+}
+
+.offcanvas.show {
+  background-color: var.$dark-blue !important;
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        // padding: 0 !important;
+        margin: 10px 0 !important;
+      }
+    }
+  }
+}
+
+.offcanvas-header .btn-close {
+  background-color: var.$secondary-color !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+}

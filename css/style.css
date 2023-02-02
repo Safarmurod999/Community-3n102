@@ -27,14 +27,9 @@ ul {
 }
 
 main {
-  margin-top: 72px;
+  margin-top: 94px;
 }
 
-@media (min-width: 992px) {
-  main {
-    margin-top: 94px;
-  }
-}
 #backtop {
   border: none;
   position: fixed;
@@ -58,4 +53,127 @@ main {
   max-width: 1304px !important;
   padding: 0 12px !important;
   margin: 0 auto !important;
+}
+
+#navbar {
+  background-color: #232536 !important;
+  padding: 27px 0 !important;
+  transition: 0.5s;
+}
+
+.navbar-shrink {
+  padding: 10px 0 !important;
+  box-shadow: -2px 14px 8px 0px rgba(250, 247, 247, 0.2);
+}
+
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+  padding-right: 0 !important;
+}
+
+.navbar-toggler {
+  color: #fff !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 16px !important;
+  color: #fff !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  opacity: 0.6;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+  color: #FFD3AF !important;
+  opacity: 1;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FFD3AF !important;
+  opacity: 1;
+}
+
+.offcanvas.show {
+  background-color: #232536 !important;
+}
+.offcanvas.show .navbar-nav .nav-item .nav-link {
+  margin: 10px 0 !important;
+}
+
+.offcanvas-header .btn-close {
+  background-color: #fff !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.btn {
+  position: relative;
+  max-width: 219px !important;
+  padding: 20px 32px;
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #444CFC;
+  color: #fff;
+}
+.btn-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home {
+  padding: 50px 0;
+  background-color: #232536;
+}
+.home__title {
+  max-width: 624px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.home__text {
+  max-width: 528px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+.home__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .row-bottom {
+  padding-top: 72px;
+}
+.home .row-bottom div {
+  text-align: center;
+}
+.home h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+.home h4 p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  opacity: 0.6;
 }
