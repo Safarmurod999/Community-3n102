@@ -1,0 +1,50 @@
+@use "../abstract/mixin" as mixin;
+@use "../abstract/variables" as var;
+@use "../components/btn";
+.home {
+  padding: 50px 0;
+  background-color: var.$dark-blue;
+  &__title {
+    max-width: 624px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  &__text {
+    max-width: 528px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0.6;
+    margin-bottom: 32px;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row-bottom{
+    padding-top: 72px;
+    div{
+        text-align: center;
+    }
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: var.$secondary-color;
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: var.$secondary-color;
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,138 @@
+#begin {
+    .begin {
+        display: flex;
+        justify-content: space-between;
+
+        .begin__div {
+
+            h1 {
+                padding-top: 24px;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 58px;
+
+
+                color: #232536;
+                max-width: 729px;
+            }
+
+            p {
+                padding: 24px 0 32px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+        
+
+
+                color: #232536;
+
+                opacity: 0.87;
+                max-width: 719px;
+            }
+
+            .begin__end {
+                display: flex;
+
+                p {
+                    padding: 0 16px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+
+
+                    color: #232536;
+
+                    opacity: 0.6;
+                }
+
+                .end__right {
+                    display: flex;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+
+
+
+                        color: #232536;
+
+                        opacity: 0.87;
+                    }
+                }
+
+                .end__left {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+
+
+                    color: #232536;
+
+                    opacity: 0.6;
+                }
+            }
+        }
+
+        padding-bottom: 96px !important;
+    }
+}
+
+.img-2 {
+    img {
+        height: 369px;
+        width: 100%;
+    }
+
+    padding-bottom: 113px !important;
+}
+
+.container-2-2 {
+    max-width: 842px;
+    margin: 0 auto;
+    padding-bottom: 96px ;
+    h1 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+
+
+
+        color: #232536;
+    }
+
+    p {
+        max-width: 836px;
+        padding-top: 24px ;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+
+
+        color: #232536;
+
+    }
+
+    h2 {
+        padding-top: 40px ;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+
+
+
+        color: #232536;
+
+    }
+    
+}
+
+@media ( max-width: 800px ) {
+    .img-2 {
+        display: none;
+    }
+    .container-2-2 * {
+        text-align: center;
+    }
+}

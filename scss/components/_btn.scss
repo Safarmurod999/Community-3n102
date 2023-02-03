@@ -1,0 +1,16 @@
+@use "../abstract/variables" as var;
+
+.btn{
+    position: relative;
+    max-width: 219px !important;
+    padding: 20px 32px;
+    border: none !important;
+    border-radius: 0!important;
+    background-color: var.$light-blue;
+    color: var.$secondary-color;
+    &-top{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
