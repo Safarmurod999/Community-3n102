@@ -129,6 +129,9 @@ main {
   top: 0;
   left: 0;
 }
+.btn:hover {
+  background-color: #444CFC !important;
+}
 
 .home {
   padding: 50px 0;
