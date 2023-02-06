@@ -1,0 +1,44 @@
+.career-right {
+  padding: 82px 110px 78px 80px;
+  background: #ffe0c7;
+}
+
+.career-head {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.career-left h5 {
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  opacity: 0.87;
+}
+.career-left h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  padding-bottom: 16px;
+  text-align: center;
+  color: #232536;
+}
+.career-left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  color: #232536;
+  opacity: 0.87;
+}
+.career-left a {
+  background-color: blue;
+  padding: 20px 35px 20px 32px;
+}
+.career-right {
+  width: 515px;
+  // height: 324px;
+}

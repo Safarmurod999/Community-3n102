@@ -1,0 +1,136 @@
+html{
+    font-family: sans-serif;
+}
+#team-template{
+    justify-content: center;
+    #bts{
+        padding: 0 auto;
+        margin: 45px 0;
+        width: 30px;
+        background-color: #666DFF;
+    }
+    a{
+        text-decoration: none;
+    }
+    .first-center{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+         .first-page{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 20px;
+          text-align: center;
+           width: 500px;
+           .img{
+            img{
+                width: 100%;
+            }
+           }
+           h2{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+            color: #232536;
+           }
+           p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #232536;
+
+           }
+           .contacts{
+           display: flex;
+           justify-content: center;
+           gap: 40px;
+           }
+         }
+      }
+      .bottom-lift{
+        background: #ECF8F9;
+        height: 580px;
+      }
+
+
+      .bottom-lift{
+        .blog-img-texts{
+            display: grid;
+            margin-top: 70px;
+            // gap: 20px;
+        }
+      }
+
+      .lift-cardd{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 35px;
+       
+        .lift-card{
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            width: 580px;
+            gap: 30px;
+            img{
+                width: 100%;
+            }
+            .texts{
+                display: grid;
+                grid-template-columns: auto;
+                gap: 20px;
+                p{
+    
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: #232536;
+                }
+                h3{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #232536;
+                }
+            }
+        }
+    
+    }
+
+}
+
+
+@media(max-width:510px){
+    .first-page{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 20px;
+
+    }
+  }
+
+
+  @media(max-width:1720px){
+    .bottom-lift{
+        display: grid;
+        grid-template-columns: auto ;
+        justify-content: center;
+        gap: 40px;
+    }
+    .blog-img-texts{
+        justify-content: center;
+    }
+  }
