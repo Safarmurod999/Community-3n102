@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O'rinov Safarmurod</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
+  <body>
+    <header>
+      <nav
+        id="navbar"
+        class="navbar bg-body-tertiary fixed-top navbar-expand-lg"
+        w3-include-html="nav.html"
+      ></nav>
+    </header>
     <main>
       <section class="home">
         <div class="container">
@@ -26,7 +47,7 @@
           </div>
           <div class="row row-bottom">
             <div
-              class="col-12 col-sm-6 col-lg-4 col-xl-2 d-flex align-items-center justify-content-center"
+              class="col-12 col-sm-6 col-lg-4 services__card col-xl-2 d-flex align-items-center justify-content-center"
             >
               <h4>
                 <p>Our Clients</p>
@@ -61,7 +82,7 @@
                 delivery.
               </h1>
             </div>
-            <div class="col-12 col-lg-6 text-center text-lg-start">
+            <div class="col-12 col-lg-6 text-center text-lg-start ps-0 ps-lg-5">
               <h3>The Era Of Technology.</h3>
               <p>
                 Through True Rich Attended does no end it his mother since real
@@ -71,71 +92,345 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-              <img src="images/home/about1.png" alt="...">
+            <div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0">
+              <img
+                class="img-fluid w-100 h-100"
+                src="images/home/about1.png"
+                alt="..."
+              />
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <img src="images/home/about2.png" alt="...">
+            <div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0">
+              <img
+                class="img-fluid w-100 h-100"
+                src="images/home/about2.png"
+                alt="..."
+              />
             </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex flex-row">
-              <img src="images/home/about3.png" alt="...">
-              <img src="images/home/about-left.png" alt="...">
+            <div
+              class="col-12 col-lg-4 my-3 my-lg-0 d-flex flex-row position-relative"
+            >
+              <img
+                class="img-fluid w-100 h-100"
+                src="images/home/about3.png"
+                alt="..."
+              />
+              <img
+                class="left-img h-100"
+                src="images/home/about-left.png"
+                alt="..."
+              />
             </div>
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>O'rinov Safarmurod</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <header>
-    <nav id="navbar" class="navbar bg-body-tertiary fixed-top navbar-expand-lg" w3-include-html="nav.html"></nav>
-  </header>
-
-  <main>
-    <section class="home">
-      <div class="container">
-        <div class="row">
-          <div class="home__left col-12 col-lg-6 text-center text-lg-start">
-            <h1 class="home__title mx-auto mx-lg-0">
-              Transform Your Idea Into Reality with Finsweet
-            </h1>
-            <p class="home__text mx-auto mx-lg-0">
-              The entire Finsweet team knows what's good with Webflow and you
-              can too with 1 week and a good attitude.
-            </p>
-            <a href="#" class="btn mx-auto mx-lg-0"><img class="btn-top" src="images/home/shape.svg" alt="..." />
-              Request Quote <img src="images/home/arrow2.svg" alt="...." /></a>
           </div>
-          <div class="home__right col-12 col-lg-6 text-center py-5 py-lg-0 text-lg-end">
-            <img src="images/home/home-bg.png" alt="" class="img-fluid" />
+          <div class="about-bottom row">
+            <div class="col-12 col-lg-6">
+              <div class="row">
+                <div class="col-6 col-sm-3">
+                  <h4 class="about-bottom-index">1560+</h4>
+                  <img src="images/home/shape-1.png" alt="..." />
+                  <p>Projects</p>
+                </div>
+                <div class="col-6 col-sm-3">
+                  <h4 class="about-bottom-index">100+</h4>
+                  <img src="images/home/shape-1.png" alt="..." />
+                  <p>Professional</p>
+                </div>
+                <div class="col-6 col-sm-3">
+                  <h4 class="about-bottom-index">950+</h4>
+                  <img src="images/home/shape-1.png" alt="..." />
+                  <p>Happy Clients</p>
+                </div>
+                <div class="col-6 col-sm-3">
+                  <h4 class="about-bottom-index">10yrs</h4>
+                  <img src="images/home/shape-1.png" alt="..." />
+                  <p>Experience</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end"
+            >
+              <a href="#" class="about-link"
+                >Read About Us <img src="images/home/arrow-blue.png" alt="..."
+              /></a>
+            </div>
           </div>
         </div>
-        <div class="row row-bottom">
-          <div class="col-12 col-sm-6 col-lg-4 col-xl-2 d-flex align-items-center justify-content-center">
-            <h4>
-              <p>Our Clients</p>We've worked with
-            </h4>
+      </section>
+      <section class="expertise">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-lg-6 text-center text-lg-start expertise__left"
+            >
+              <h5 class="expertise__top">Our Expertise</h5>
+              <h1 class="expertise__title">
+                We want to get local identification in every corner of the world
+                in this era of global citizenship
+              </h1>
+              <p class="expertise__text">
+                Through True Rich Attended does no end it his mother since real
+                had half every him case in packages enquire we up ecstatic
+                unsatiable saw his giving Remain expense you position concluded.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 mt-lg-0 expertise__right">
+              <div class="expertise__card mt-3">
+                <div class="expertise__card-left">
+                  <img src="images/home/expertise-img.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/hover.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>On Time Delivery</h5>
+                  <p>
+                    Through True Rich Attended does no end it his mother since
+                    real had half every him.
+                  </p>
+                </div>
+              </div>
+              <div class="expertise__card mt-3">
+                <div class="expertise__card-left">
+                  <img src="images/home/expertise-img2.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/hover.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Best Quality</h5>
+                  <p>
+                    Through True Rich Attended does no end it his mother since
+                    real had half every him.
+                  </p>
+                </div>
+              </div>
+              <div class="expertise__card mt-3">
+                <div class="expertise__card-left">
+                  <img src="images/home/expertise-img3.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/hover.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Support Assist</h5>
+                  <p>
+                    Through True Rich Attended does no end it his mother since
+                    real had half every him.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-4 col-xl-2"><img src="images/home/logo1.png" alt="..."></div>
-          <div class="col-12 col-sm-6 col-lg-4 col-xl-2"><img src="images/home/logo2.png" alt="..."></div>
-          <div class="col-12 col-sm-6 col-lg-4 col-xl-2"><img src="images/home/logo3.png" alt="..."></div>
-          <div class="col-12 col-sm-6 col-lg-4 col-xl-2"><img src="images/home/logo4.png" alt="..."></div>
-          <div class="col-12 col-sm-6 col-lg-4 col-xl-2"><img src="images/home/logo5.png" alt="..."></div>
         </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- <footer w3-include-html="footer.html"></footer> -->
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-</body>
-
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center text-lg-start expertise__left">
+              <h5 class="expertise__top">Our Services</h5>
+              <h1 id="services__title" class="expertise__title">
+                We build software solutions that solve client's business
+                challenges
+              </h1>
+              <a href="#" class="btn mx-auto mx-lg-0"
+                ><img class="btn-top" src="images/home/shape.svg" alt="..." />
+                Start a Project <img src="images/home/arrow2.svg" alt="...."
+              /></a>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+              <div class="services__card">
+                <img src="images/home/service1.png" alt="..." />
+                <h5>Technical support</h5>
+                <p>
+                  We aim to attain the greatest satisfaction for our clients and
+                  be one of the prominent names when it comes to world-class
+                  service
+                </p>
+                <a href="service.html"
+                  >Read More <img src="images/home/arrow-blue.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+              <div class="services__card">
+                <img src="images/home/service2.png" alt="..." />
+                <h5>Testing Management</h5>
+                <p>
+                  We aim to attain the greatest satisfaction for our clients and
+                  be one of the prominent names when it comes to world-class
+                  service
+                </p>
+                <a href="service.html"
+                  >Read More <img src="images/home/arrow-blue.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+              <div class="services__card">
+                <img src="images/home/service3.png" alt="..." />
+                <h5>Development</h5>
+                <p>
+                  We aim to attain the greatest satisfaction for our clients and
+                  be one of the prominent names when it comes to world-class
+                  service
+                </p>
+                <a href="service.html"
+                  >Read More <img src="images/home/arrow-blue.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="process">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-12 text-center text-lg-start expertise__left">
+              <h5 class="expertise__top">Our Process</h5>
+              <h1 id="services__title" class="expertise__title">
+                The process we are working With Our client Worldwide
+              </h1>
+              <p class="expertise__text">
+                Through True Rich Attended does no end it his mother since real
+                had half every him case in packages enquire we up ecstatic
+                unsatiable.
+              </p>
+            </div>
+            <img class="process__img" src="images/home/shape-2.png" alt="...">
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="expertise__card mt-3">
+                <img src="images/home/top-1.png" alt="..." class="process-num">
+                <div class="expertise__card-left">
+                  <img src="images/home/process-1.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/shape-3.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Discover</h5>
+                  <p>
+                   We aim to attain the greatest satisfaction for our clients and be one of the prominent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="expertise__card mt-3">
+                <img src="images/home/top-2.png" alt="..." class="process-num">
+                <div class="expertise__card-left">
+                  <img src="images/home/process-2.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/shape-3.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Designing</h5>
+                  <p>
+                   We aim to attain the greatest satisfaction for our clients and be one of the prominent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="expertise__card mt-3">
+                <img src="images/home/top-3.png" alt="..." class="process-num">
+                <div class="expertise__card-left">
+                  <img src="images/home/process-3.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/shape-3.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Development</h5>
+                  <p>
+                   We aim to attain the greatest satisfaction for our clients and be one of the prominent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="expertise__card mt-3">
+                <img src="images/home/top-4.png" alt="..." class="process-num">
+                <div class="expertise__card-left">
+                  <img src="images/home/process-4.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/shape-3.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Testing</h5>
+                  <p>
+                   We aim to attain the greatest satisfaction for our clients and be one of the prominent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="expertise__card mt-3">
+                <img src="images/home/top-5.png" alt="..." class="process-num">
+                <div class="expertise__card-left">
+                  <img src="images/home/process-5.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/shape-3.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Deployment</h5>
+                  <p>
+                   We aim to attain the greatest satisfaction for our clients and be one of the prominent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="expertise__card mt-3">
+                <img src="images/home/top-6.png" alt="..." class="process-num">
+                <div class="expertise__card-left">
+                  <img src="images/home/process-6.png" alt="..." />
+                  <img
+                    class="expertise__hover"
+                    src="images/home/shape-3.png"
+                    alt="..."
+                  />
+                </div>
+                <div class="expertise__card-right">
+                  <h5>Maintenance</h5>
+                  <p>
+                   We aim to attain the greatest satisfaction for our clients and be one of the prominent.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <footer w3-include-html="footer.html"></footer> -->
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
